@@ -1,8 +1,13 @@
 document.getElementById("button").addEventListener("click", showhide);
 
 function showhide() {
-    let b = document.body
-    let NewArticle = document.createElement('article');
-    NewArticle.textContent = "L'important n'est pas la chute, mais l'atterrissage."
-    b.append(NewArticle)
+    let article = document.getElementById("article");
+    if (article) {
+        article.parentNode.removeChild(article);
+    } else {
+        let newArticle = document.createElement("article");
+        newArticle.setAttribute("id", "article");
+        newArticle.textContent = "L'important n'est pas la chute, mais l'atterrissage.";
+        document.body.appendChild(newArticle);
+    }
 }
