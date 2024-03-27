@@ -1,0 +1,12 @@
+#rainbow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #rainbow img {
+    width: 100px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+  }
