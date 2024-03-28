@@ -1,0 +1,8 @@
+[
+    {"id": 1, "nom": "Dupont", "prenom": "Jean", "email": "jean.dupont@example.com"},
+    {"id": 2, "nom": "Martin", "prenom": "Marie", "email": "marie.martin@example.com"},
+    {"id": 3, "nom": "Dubois", "prenom": "Pierre", "email": "pierre.dubois@example.com"},
+    {"id": 4, "nom": "Lagerfeld", "prenom": "Karl", "email": "karl.lagerfeld@example.com"},
+    {"id": 5, "nom": "Chanel", "prenom": "Coco", "email": "coco.chanel@example.com"},
+    {"id": 6, "nom": "Saint-Laurent", "prenom": "Yves", "email": "yves.saint-laurent@example.com"}
+  ]
