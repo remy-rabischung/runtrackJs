@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>La Matrice</h1>
+        <button id="bout_head"><a href="connexion.html">Connexion</a></button>
+        <button id="bout_head"><a href="inscription.html">Inscription</a></button>
+    </header>
+    
+    <div class="cont_contact">
+        <div class="text_contact">
+            <h2>Connectez vous à La Matrice</h2>
+            <p>Utilisez vos identifiants pour vous connecter<br>Attention, cette action est irréversible !</p>
+        </div>
+        <hr class="hr_contact">
+        <div class="contactez-nous">
+            <form class="form_cnx" id="loginForm">
+                <label for="mail"> Entrez votre adresse e-mail</label>
+                <input class="L1" type="text" name="mail" id="mail" placeholder="monadresse@mail.com" required><br>
+                <span class="error-message" id="mail-error"></span><br>
+
+                <label for="mdp"> Entrez votre mot de pase</label>
+                <input class="L1" type="password" name="mdp" id="mdp" required><br>
+                <span class="error-message" id="mdp-error"></span><br>
+
+                <input class="L1" type="checkbox" name="checkbox">Mémoriser mes informations de connexion
+		        <button id="submitBtn" type="submit">Me connecter</button>
+            </form>
+        </div>
+    </div> 
+    <div id="errorMessages"></div>   
+    <footer></footer>
+    <script src="connexion.js"></script>
+</body>
+</html>

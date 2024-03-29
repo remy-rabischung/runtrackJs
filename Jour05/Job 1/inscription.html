@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>La Matrice</h1>
+        <button id="bout_head"><a href="connexion.html">Connexion</a></button>
+        <button id="bout_head"><a href="inscription.html">Inscription</a></button>
+    </header>
+    
+    <div class="cont_contact">
+        <div class="text_contact">
+            <h2>S'inscrire pour rejoindre La Matrice</h2>
+            <p>Bravo, vous avez été selectionné ! Vous pouvez dès à présent créer votre compte sur La Matrice<br>Préparez vous à démarrer une nouvelle vie !</p>
+        </div>
+        <hr class="hr_contact">
+        <div class="contactez-nous">
+            <form class="form_cnx" id="loginForm">
+                <label for="prenom"> Entrez votre prénom</label>
+                <input class="L1" type="text" name="prenom" id="prenom" placeholder="Thomas" required><br>
+                <span class="error-message" id="prenom-error"></span><br>
+
+                <label for="nom"> Entrez votre nom</label>
+                <input class="L1" type="text" name="nom" id="nom" placeholder="Anderson" required><br>
+                <span class="error-message" id="nom-error"></span><br>
+
+                <label for="mail"> Entrez votre adresse e-mail</label>
+                <input class="L1" type="text" name="mail" id="mail" placeholder="monadresse@mail.com" required><br>
+                <span class="error-message" id="mail-error"></span><br>
+
+                <label for="add"> Entrez votre adresse postale</label>
+                <input class="L1" type="text" name="add" id="add" placeholder="8 Rue de La Matrice" required><br>
+                <span class="error-message" id="add-error"></span><br>
+
+                <label for="code"> Entrez votre code postal</label>
+                <input class="L1" type="text" name="code" id="code" placeholder="13500" required><br>
+                <span class="error-message" id="code-error"></span><br>
+
+                <label for="mdp"> Entrez votre mot de pase</label>
+                <input class="L1" type="password" name="mdp" id="mdp" required><br>
+                <span class="error-message" id="mdp-error"></span><br>
+
+                <label for="mdp_confirm"> Confirmez votre mot de pase</label>
+                <input class="L1" type="password" name="mdp_confirm" id="mdp_confirm" required><br>
+                <span class="error-message" id="mdp_confirm-error"></span><br>
+
+                <input class="L1" type="checkbox" name="checkbox">J'ai lu et j'accepte toutes les conditions, sans exceptions, de La Matrice
+		        <button id="submitBtn" type="submit">S'inscrire</button>
+            </form>
+        </div>
+    </div>    
+    <div id="errorMessages"></div>
+    <footer></footer>
+    <script src="inscription.js"></script>
+</body>
+</html>
