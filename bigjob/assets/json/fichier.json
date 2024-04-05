@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "nom": "Rabischung",
+      "prenom": "Remy",
+      "email": "remy.rabischung@laplateforme.io",
+      "motdepasse": "Plateforme13!",
+      "role": "etudiant"
+    },
+    {
+      "id": 2,
+      "nom": "Kies",
+      "prenom": "WIlliam",
+      "email": "william.kies@laplateforme.io",
+      "motdepasse": "Plateforme13!",
+      "role": "moderateur"
+    },
+    {
+      "id": 3,
+      "nom": "Zimmermann",
+      "prenom": "Cyril",
+      "email": "cyril.zimmermann@laplateforme.io",
+      "motdepasse": "Plateforme13!",
+      "role": "administrateur"
+    }
+  ]
